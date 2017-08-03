@@ -1,0 +1,88 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.googlefy {
+    display: inline-block;
+    font-size: 90px;
+    /*font-weight: bold;*/
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+#previewImage > span {
+    font-size: 100px;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.header {
+  position: relative;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 55px;
+  /*background-color: #efefef;*/
+}
+
+.header > div {
+    padding: 2rem;
+}
+
+.header div a, .footer div a {
+    padding-left: 15px;
+    margin: 0 !important;
+    color: #666;
+    font-size: 13px;
+}
+
+.main {
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    height: 100%;
+}
+
+.center {
+    position: absolute;
+    height: 280px;
+    width: 450px;
+    top: calc(50% - 140px);
+    left: calc(50% - 225px);
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 27px 10px 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  text-align: center;
+}
+
+.footer div a {
+    padding-left: 27px;
+    margin: 0 !important;
+    color: #666;
+}
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
